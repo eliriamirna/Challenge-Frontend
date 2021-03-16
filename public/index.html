@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="eliria" content="Análise de código">
+    <title>Opa Box</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="css/estiloOpaBox.css">
+    <link rel="stylesheet" href="css/animacoes.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.JPG">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="cumprimento">
+            <h1 class="animated-appear">Opa! Que bom que você está aqui.</h1>
+        </div>
+    </header>
+
+    <section class="destaque">
+        <div class="apresentacao">
+            <h1 class="animate-up">Seja bem vindo(a) a minha avaliação de código fonte.</h1>
+            <h2 class="animate-up">Aqui você vai conhecer e executar os desafios propostos para esse programa.</h2>
+        </div>
+
+        <div class="imagem">
+            <img src="https://media.giphy.com/media/2pYY4tEJEkjGb3z9Nw/giphy.gif" alt="gif Michel of star trek discovery saying: Challenge accepted">
+        </div>
+    </section>
+
+    <section class="desafios">
+        <div class="desafio1">
+            <div id="desafio1-scroll">
+
+                <h2>Veja como é fácil ordenar uma lista de números e até mesmo uma lista de textos.</h2>
+
+                <div class="ordenaNumeros">
+                    <p>Digite no espaço abaixo uma lista de números aleatórios.
+                    </p>
+
+                    <div class="inputButton">
+                        <input type="text" id="numero" placeholder="ex: 1, 2, 3">
+                        <button type="button" name="adicionarNumero" id="adicionaNums">Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="ordenaTexto">
+                    <p>Digite no espaço abaixo uma lista de letras, palavras ou qualquer texto que você queira ordenar.
+                    </p>
+
+                    <div class="inputButton">
+                        <input type="text" id="texto" placeholder="textos da lista">
+                        <button type="button" name="adicionarPalavra" id="adicionaTextos">Adicionar</button>
+                    </div>
+                </div>
+
+                <button type="button" name="ordenar" id="ordenar">Ordenar listas</button>
+                <div class="listaResultado">
+                    <div class="listaNumerica">
+                        <ul id="listaNumerica">
+
+                        </ul>
+                    </div>
+
+                    <div class="listaTextos">
+                        <ul id="listaTextos">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="desafio2">
+            <h2>Agora vamos descobrir se um intervalo de números qualquer se interlaça em outro intervalo.
+            </h2>
+
+            <div class="intervalo1" id="intervalo1">
+                <p>Digite o primeiro intervalo de
+                    <input id="min1" type="number" name="min1" placeholder="ex: 1"> até
+                    <input id="max1" type="number" name="max1" placeholder="ex: 1">.
+                </p>
+            </div>
+
+            <div class="intervalo2" id="intervalo2">
+                <p>Digite o segundo intervalo de
+                    <input id="min2" type="number" name="min2" placeholder="ex: 1"> até
+                    <input id="max2" type="number" name="max2" placeholder="ex: 1">.
+                </p>
+                <p>
+
+            </div>
+
+            <button type="button" name="Interlace" id="analisarInterlace">Clique para saber o resultado</button>
+
+            <p id="respostaInterlace"></p>
+        </div>
+    </section>
+
+    <footer class="animate-up">
+        <h1>Obrigada, e até a próxima!</h1>
+    </footer>
+</body>
+
+</html>
