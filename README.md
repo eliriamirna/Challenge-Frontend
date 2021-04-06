@@ -1,4 +1,4 @@
-# Opa Box Frontend
+# Frontend
 
 ## O que é este projeto?
 
@@ -6,7 +6,7 @@ Este projeto é uma página desenvolvida em HTML, CSS e JQuery e necessita que o
 
 ## O que ele faz? 
 
-É a inteface do usuário para executar as funcionalidades do projeto OpaBox.
+É a inteface do usuário para executar as funcionalidades do projeto.
 
 ## Como executar?
 Abra um terminal na pasta projeto e execute: 
